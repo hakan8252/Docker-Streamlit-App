@@ -3,7 +3,7 @@ import pandas as pd
 import numpy as np
 from sklearn.model_selection import train_test_split
 import joblib
-import lightgbm
+import lightgbm as lgb
 
 # Streamlit App
 st.title('Telco Churn Prediction Dockerized App')
@@ -32,7 +32,6 @@ X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_
 
 # Load the LightGBM model
 lgbm_classifier = joblib.load('lgbm_model.pkl')
-
 
 if st.button('Show Example for (Churn = 0)'):
     # Select the example from the test data where Churn is 0

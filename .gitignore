@@ -1,0 +1,4 @@
+spark-3.3.4-bin-hadoop2
+.venv
+hadoop
+models/Telco-Customer-Churn.csv

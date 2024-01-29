@@ -12,8 +12,7 @@ Follow these steps to run the Telco Churn Prediction Web App locally:
 
 1. Clone the Repository
 ```bash
-git clone <repository-url>
-cd <repository-name>
+git clone https://github.com/hakan8252/Docker-Streamlit-App.git
 ```
 
 2. Pull the Docker image from the repository:
